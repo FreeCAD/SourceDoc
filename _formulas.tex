@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+% Packages requested by user
+\usepackage{amsmath}
+
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$[-2^{53}+1, 2^{53}-1]$
+\pagebreak
+
+$ \mathcal{O}(N) $
+\pagebreak
+
+$N$
+\pagebreak
+
+$ E = \Delta \mathbf{x}^T \mathbf{L} \mathbf{L}^T \Delta \mathbf{x} $
+\pagebreak
+
+$\mathbf{L}$
+\pagebreak
+
+$E$
+\pagebreak
+
+$\mathbf{L} = \mathrm{diag}\left( \begin{bmatrix} 1 & 1 & 1 & 0.01 & 0.01 & 0.01 \end{bmatrix} \right) $
+\pagebreak
+
+$ E $
+\pagebreak
+
+$ [0 , \pi] $
+\pagebreak
+
+$ _a^{b1} R $
+\pagebreak
+
+$ _a^{b2} R $
+\pagebreak
+
+$ \pi $
+\pagebreak
+
+$m \times n$
+\pagebreak
+
+$ m \geq n $
+\pagebreak
+
+$n$
+\pagebreak
+
+$m \times m$
+\pagebreak
+
+$n \times n$
+\pagebreak
+
+$m$
+\pagebreak
+
+\begin{eqnarray*} r &\equiv& \textrm{ radial distance from the focus to a point on the ellipse}\\ r_a &\equiv& \textrm{ radial distance from the focus to apopasis}\\ r_p &\equiv& \textrm{ radial distance from the focus to periapsis}\\ a &\equiv& \textrm{ length of the semi-major axis, colloquially 'radius'}\\ b &\equiv& \textrm{ length of the semi-minor axis, colloquially 'radius'}\\ e &\equiv& \textrm{ eccentricity of the ellipse}\\ \theta_b &\equiv& \textrm{ angle to the intersection of the semi-minor axis and the ellipse, relative to the focus}\\ ae &\equiv& \textrm{ distance from the focus to the centroid}\\ r &=& \frac{a(1-e^2)}{1+e\cos(\theta)} = \frac{r_a(1-e)}{1+e\cos(\theta)} = \frac{r_p(1+e)}{1+e\cos(\theta)}\\ r_a &=& a(1-e)\\ r_p &=& a(1+e)\\ a &=& \frac{r_p+r_a}{2}\\ b &=& a\sqrt{1-e^2}\\ e &=& \frac{r_a-r_p}{r_a+r_p} = \sqrt{1-\frac{b^2}{a^2}}\\ \theta_b &=& \left[\pi - \arctan\left(\frac{b}{ae}\right)\right] \pm N\pi \end{eqnarray*}
+\pagebreak
+
+\begin{eqnarray*} \theta_b &=& \left[\pi - \arctan\left(\frac{b}{ae}\right)\right] \pm N 2\pi \end{eqnarray*}
+\pagebreak
+
+\end{document}
