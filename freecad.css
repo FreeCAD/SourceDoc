@@ -16,7 +16,7 @@ html.home {
 body {
     font-family: 'Fira Sans', sans-serif;
     margin-bottom: 140px;
-    background: transparent;  
+    background: #222;  
 }
 body.mediawiki, body#phpbb {
     background: #fff;
@@ -29,9 +29,21 @@ body#phpbb {
 p, .wiki-body-section {
     text-align: justify;
 }
-.nav {
+.nav, .navbar {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+}
+.navbar {
+    display: inline;
+    list-style-type: none;
+    padding-top: 2em;
+}
+.navbar li {
+    float: left;
+    margin: 1.5em 1em 0 1em;
+}
+.navbar li a {
+    color: #fff;
 }
 .navbar-brand {
     font-size: 18px;
@@ -45,6 +57,9 @@ p, .wiki-body-section {
 .nav .uls-trigger i {
     font-size: 0;
     margin-right: 10px;
+}
+#top {
+    background: #fff;
 }
 #wiki-body .nav > li > a {
     padding: 2px !important;
@@ -233,4 +248,7 @@ textarea {
         padding-top: 0;
         width: auto;
     }
+}
+address {
+    color: #eee !important;
 }
