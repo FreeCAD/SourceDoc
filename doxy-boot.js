@@ -151,9 +151,9 @@ $( document ).ready(function() {
     searchBox.CloseResultsWindow();
   });
 
-  $('body').append('<div id="MSearchClose"></div>');
-  $('body').append('<div id="MSearchBox"></div>');
-  $('body').append('<div id="MSearchSelectWindow"></div>');
+  $('wrapper').append('<div id="MSearchClose"></div>');
+  $('wrapper').append('<div id="MSearchBox"></div>');
+  $('wrapper').append('<div id="MSearchSelectWindow"></div>');
 
   searchBox.searchLabel = '';
   searchBox.DOMSearchField = function() {
@@ -366,3 +366,4 @@ function toggleInherit(id)
     $(img).attr('src',src.substring(0,src.length-10)+'open.png');
   }
 }
+@CMAKE_CURRENT_SOURCE_DIR@
